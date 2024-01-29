@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="img/favicon_io/favicon.ico" type="image/x-icon">
+    <title>Product card</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+           <div class="card__icon">
+            <div class="card__heart" onclick="heart_click()">
+                <i id="heart-nor" class='change-color bx bx-heart'></i>
+                <i id="heart-active" class='change-color bx bxs-heart' ></i>
+            </div>
+            <div class="card_cart">
+                <i class='change-color bx bx-cart' ></i>
+            </div>
+           </div>
+            <div class="card__img">
+            </div>
+            <div class="card__title change-color">
+                Nike Zoom KD 12
+            </div>
+            <div class="card__price change-color">
+                $99
+            </div>
+            <div class="card__info">
+                <div class="card__size change-color">
+                    <h3>Size</h3>
+                    <span>6</span>
+                    <span>7</span>
+                    <span>8</span>
+                    <span>9</span>
+                </div>
+                <div class="card__color">
+                    <h3 class="color change-color">Color</h3>
+                    <span class="card__color--blue"></span>
+                    <span class="card__color--red"></span>
+                    <span class="card__color--green"></span>
+                    <span class="card__color--orange"></span>
+                    <span class="card__color--black"></span>
+                </div>
+                <div class="card__action change-color">
+                    <button>Buy Now</button>
+                    <button>Add Cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
